@@ -1,10 +1,35 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7665742&assignment_repo_type=AssignmentRepo)
-Week6 Marvel Exercise New Version
+<img src="https://batusan-marvel.vercel.app/logo192.png" alt="Logo of the project" align="right">
 
-Özelikle dikkat etmenizi istediğimiz noktalar
+# Marvel heros 
+> Application that help me to know my favorite characters using the Marvel api
 
-1. Auto complete (Arama alanı için)
-2. Detail page (Arama alanında çıkan sonuçlardan birine tıklanınca veya sayfadaki itemlardan birine tıklanınca)
-3. Multi Language (İngilizce, Türkçe, Fransızca)
+[Live demo](https://batusan-marvel.vercel.app/)
 
-Deadline - 24.04.2022 10:00
+## Installing / Getting started
+
+Firstly you need to get a MARVEL API key : 
+
+https://developer.marvel.com/
+
+You need to put this key in .env file and then run commands : 
+
+```shell
+npm install - Install dependecies
+npm start - Gonna start project
+```
+
+## Tech stack 
+
+- React 
+- i18 (Multi-language support)
+- Axios
+
+## Screenshot
+
+<img src="./docs/screenshot.png" alt="Screenshot of the project">
+
+
+## Api Reference
+
+API Documentation : [API Docs](https://developer.marvel.com/docs)
+
